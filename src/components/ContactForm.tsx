@@ -1,4 +1,6 @@
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import React, { useState } from 'react';
+import type { ChangeEvent, FormEvent } from 'react';
+
 
 interface FormState {
   name: string;
